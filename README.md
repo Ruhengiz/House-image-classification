@@ -26,39 +26,24 @@ This project walks through a machine learning pipeline for predicting housing pr
 
 ---
 
-### 📁 Project Structure
-
-```
-├── data/                   # Raw and cleaned data files
-├── notebooks/              # Jupyter notebooks for EDA and modeling
-├── src/                    # Source code for preprocessing and training
-│   ├── preprocess.py
-│   └── model.py
-├── requirements.txt        # List of dependencies
-├── README.md               # Project overview
-└── house_price_predictor.py # Main executable script
-```
-
----
 
 ### 🔍 Features Used
-- Square footage
-- Number of bedrooms and bathrooms
-- Year built
-- Location (zipcode, neighborhood)
-- House condition and grade
-
----
-
-### 📈 Model
-- Preprocessing: StandardScaler, OneHotEncoding
-- Model: Linear Regression / Random Forest / XGBoost
-- Evaluation Metrics: RMSE, MAE, R²
+- Category
+- Floor
+- Area(m²)
+- Room_count
+- Price
+- Metro
+- Rayon
+- vision_score
+- Floor_First_Part
+- Floor_Second_Part
+- Floor_encode
 
 ---
 
 ### 🚀 Results
-Achieved an R² score of **0.88** with XGBoost after hyperparameter tuning. 
+Achieved Mean Absolute Error: **177.51**, an R² score of **0.88**. 
 
 ---
 
